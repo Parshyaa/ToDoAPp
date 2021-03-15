@@ -1,0 +1,13 @@
+Steps,
+
+1. Download the ToDoApp from the link
+2. Open the API project in VS2019 
+3. Let the packages get restored automatically. 
+4. Once the packages are loaded, Run the project
+
+5. Now open the Web Project in VS Code 
+6. Run npm install from the terminal
+7. Once everything is installed, run the command  npm run serve
+8. Once everthing is complied , open the browser and type http://localhost:8080/
+9. It will open the ToDo Web App.
+
