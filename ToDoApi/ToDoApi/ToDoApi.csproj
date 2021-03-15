@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="dist\**" />
+    <Compile Remove="Repository\IRepository\**" />
+    <Content Remove="dist\**" />
+    <Content Remove="Repository\IRepository\**" />
+    <EmbeddedResource Remove="dist\**" />
+    <EmbeddedResource Remove="Repository\IRepository\**" />
+    <None Remove="dist\**" />
+    <None Remove="Repository\IRepository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.4" />
+  </ItemGroup>
+
+
+</Project>
